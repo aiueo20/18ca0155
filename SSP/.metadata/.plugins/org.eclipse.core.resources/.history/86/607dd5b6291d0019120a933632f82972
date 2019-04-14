@@ -1,0 +1,16 @@
+package kadai0603.servlet;
+
+public class Untin {
+	private String ekiNo;
+	private String ekiName;
+	private String ekiDistance;
+
+	public Untin(String ekiNo,String ekiName,String ekiDistance) {
+		this.ekiNo = ekiNo;
+		this.ekiName = ekiName;
+		this.ekiDistance = ekiDistance;
+	}
+
+
+
+}

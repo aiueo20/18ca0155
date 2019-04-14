@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="ganrihyoji.jsp"  method="get">
+	貯金金額<input type="text" name="savings"><br>
+	利率<input type="text" name="rate"><br>
+	貯金期間
+	<select name="period">
+	<option value="0" selected>選択してください</option>
+	<option value="1">1年</option>
+	<option value="5">5年</option>
+	<option value="10">10年</option>
+	</select><br>
+	<input type="submit" value="計算">
+	<input type="reset" value="リセット" onclick="location.reload()">
+
+	</form>
+
+</body>
+</html>

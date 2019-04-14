@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+	font-family: Impact,Charcoal;
+	width: 1200px;
+}
+.header {
+	text-align: center;
+}
+h2 {
+	background-image
+	background-color: #f0e68c;
+}
+p{
+	font-family: "MS 明朝",serif;
+	font-style: oblique;
+}
+
+
+
+a{
+	color: red;
+	font-family: "MS 明朝",serif;
+	font-style: oblique;
+}
+
+a:hover img{
+	opacity: :0.6;
+	color: orange;
+}
+
+a[target="_blank"]::after{
+	content: url(../images/newwin16.png);
+	font-family: "Font Awesome 5 Free";
+	font-weight:bold;
+	content: '\f35d';
+}

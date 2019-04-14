@@ -1,0 +1,11 @@
+1.SELECT first_name,salary FROM person ORDER BY salary DESC FETCH FIRST 7 ROWS ONLY;
+
+2.SELECT first_name,salary FROM person ORDER BY salary DESC FETCH FIRST 7 ROWS WITH TIES;
+
+3.SELECT first_name,salary FROM person ORDER BY salary DESC OFFSET 9 ROWS FETCH FIRST 2 ROWS ONLY;
+
+4.SELECT first_name,salary FROM person ORDER BY salary DESC OFFSET 9 ROWS FETCH FIRST 2 ROWS WITH TIES;
+
+5.SELECT first_name,last_name FROM person ORDER BY last_name FETCH FIRST 10 PERCENT ROWS ONLY;
+
+6.SELECT first_name,last_name FROM person ORDER BY last_name OFFSET 10 ROWS FETCH FIRST 10 PERCENT ROWS ONLY;

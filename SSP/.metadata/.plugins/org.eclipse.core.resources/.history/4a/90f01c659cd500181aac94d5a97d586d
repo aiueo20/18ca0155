@@ -1,0 +1,10 @@
+/*
+ * filename : Hello.java
+ * Author 	: Murata,Hisashi
+ * Date		:2018.10.22
+ */
+public class Hello {
+	public static void main(String[] args) {
+		System.out.println("Hello,World!!");
+	}
+}

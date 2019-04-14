@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="kadai0601.Calculate" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>手紙の料金計算</h1><br>
+<input type="radio" name="teikei" value="定形">定形<br>
+<input type="radio" name="teikei" value="定形外">定形外<br>
+<!--
+<input type="radio" name="kikakunai" value="規格内">規格内<br>
+<input type="radio" name="kikakugai" value="規格外">規格外<br>
+-->
+<input type="checkbox" name="sokutatu" value="速達">速達<br>
+<input type="checkbox" name="kannikakitome" value="簡易書留">簡易書留<br>
+枚数<input type="text" name="maisu" value=""><br>
+<input type="submit" value="計算"><br>
+<% int x = ((Calculate)request.getAttribute("calculate")).getPrice() %>
+料金：<%= ((Calculate)request.getAttribute("calculate")).getPrice() %>
+</body>
+</html>

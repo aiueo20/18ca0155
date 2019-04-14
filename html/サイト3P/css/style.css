@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*全体共通のスタイル*/
+body{
+	margin: 0;
+	background-image: url("../images/hanabibg.png");
+}
+
+.wrapper{
+	background: linear-gradient(-100deg, #e0ffff, #c4a3bf);
+}
+
+/*共通スタイル・ヘッダ部分のスタイル*/
+.header{
+	text-align: center;
+}
+
+.header a[target="_blank"]::after{
+	font-family:"sans-serif";
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 10px;
+	white-space:pre-wrap;
+}
+
+/*共通スタイル・ナビゲーション部分のスタイル*/
+nav{
+	background-color: #7B68EE;
+	border: solid 5px #2F4F4F;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+nav a{
+	display: block;
+	border-right: solid 5px #000000;
+
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#first_item{
+	border-left : solid 5px #000000;
+}
+
+nav a:hover{
+	color: #708090;
+}
+
+/*トップページのスタイル・メインのヘッダ部分のスタイル*/
+.toppage_title{
+	height: 180px;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+
+/*サブページの共通スタイル・メインのヘッダ部分のスタイル*/
+.subpage_title h1{
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+}
+
+/*共通スタイル・メインの概要部分のスタイル*/
+.contents_wrapper{
+	border: solid #165e83;
+}
+
+.toppage_point_container{
+	padding-bottom: 20px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.toppage_point_contents{
+	margin: 10px;
+	padding: 10px;
+}
+
+/*共通スタイル・フッタ部分のスタイル*/
+footer{
+	background-color: #c0c6c9;
+	text-align: center;
+	font-size: small;
+}
+
+.wf-hannari {
+	font-family: "Hannari";
+	font-size:20px;
+}

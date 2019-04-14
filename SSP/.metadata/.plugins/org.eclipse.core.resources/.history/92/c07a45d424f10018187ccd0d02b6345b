@@ -1,0 +1,8 @@
+package ex0304;
+import java.io.IOException;
+
+public class BufferedReader00 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>初めてのJavaScript2</title>
+  </head>
+  <body onload="moveImgX()">
+  	<script type="text/javascript">
+  		alert("回転すし！");
+
+  		var imgLeft = 10;
+  		function moveImgX(){
+  			document.getElementById("img1").style.top = "300px";
+  			document.getElementById("img1").style.left = imgLeft + "px";
+  			imgLeft += 5;
+  			document.getElementById("img1").style.visibility = "visible";
+  			setTimeout("moveImgX()", 100);
+  		}
+  	</script>
+  	<img src="susi01_b_02.png" border="0" id="img1" style="position:absolute; visibility:hidden">
+    
+  </body>
+</html>

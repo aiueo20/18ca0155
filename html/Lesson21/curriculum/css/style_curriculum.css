@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+table{
+	border-collapse: collapse;
+	border: 3px solid #4682b4;
+}
+
+th, td{
+	border: 1px solid #4682b4;
+}
+
+td{
+	text-indent: 10px;
+}
+
+th{
+	text-align: left;
+	background-color: #f5deb3;
+}
+
+tr:nth-child(odd){
+	background-color: #f0f8ff;
+}
+
+tr:nth-child(even){
+	background-color: #bccddb;
+}
+
+tr:first-child{
+	border-bottom: 4px double #4682b4;
+}

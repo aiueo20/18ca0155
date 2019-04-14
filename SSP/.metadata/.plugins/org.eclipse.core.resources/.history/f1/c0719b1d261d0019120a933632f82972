@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="kadai0603/yamanote" method="get">
+乗車駅：
+<select name="Rideon">
+	<option value="東京"></option>
+	<option value="神田"></option>
+	<option value="秋葉原"></option>
+	<option value="御徒町"></option>
+	<option value="上野"></option>
+	<option value="鶯谷"></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+
+</select>
+
+降車駅：
+<br>
+<input type="submit" value="計算">
+<input type="reset" value="リセット" onclick="location.reload()">
+</form>
+</body>
+</html>

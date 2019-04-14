@@ -1,0 +1,7 @@
+package ex0303;
+
+public class BufferedWriter00 {
+	public static void main(String[] args) {
+
+	}
+}

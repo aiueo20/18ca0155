@@ -1,0 +1,23 @@
+1.CREATE USER tbowner
+IDENTIFIED BY tbownerpass
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE temp
+QUOTA 100M ON users;
+
+2.CREATE USER operator
+IDENTIFIED BY operatorpass;
+
+3.CREATE USER selector
+IDENTIFIED BY selectorpass;
+
+↓これをやると見やすくなる
+SET LINE 200
+COL username FORMAT A20
+COL password FORMAT A20
+SELECT username,password,default_tablespace,temporary_tablespace FROM dba_users;
+
+↓現状接続できないから、権限を与える
+GRANT CREATE SESSION
+TO TBOWNER, SELECTOR,OPERATOR;
+
+SELECT * FROM session_privs;

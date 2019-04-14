@@ -1,0 +1,22 @@
+package ex0601.servlet;
+
+public class Gakusei {
+	private String gakusekiNo;
+	private String gakusekiName;
+
+	public void set(String gakusekiNo) {
+		this.gakusekiNo = gakusekiNo;
+	}
+
+	public String get() {
+		return this.gakusekiNo;
+	}
+
+	public void set(String gakusekiName) {
+		this.gakusekiName = gakusekiName;
+	}
+
+	public String get() {
+		return this.gakusekiName;
+	}
+}

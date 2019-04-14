@@ -1,0 +1,15 @@
+package kadai0601;
+
+public class Caluculate {
+	private String price;
+
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+
+}

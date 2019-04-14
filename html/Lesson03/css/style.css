@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+	background: url("../images/kv2.jpg");
+	background-position:50% bottom;
+	background-position:80% center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	font-family: Impact,Charcoal;
+	width: 600px;
+	background-attachment:fixed;
+}
+.header {
+	text-align: center;
+}
+h2 {
+	background-color: #f0e68c;
+}
+p{
+	font-family: "MS 明朝",serif;
+	font-style: oblique;
+}
+
+.wf-notosansjapanese { font-family: "Noto Sans Japanese"; }
+
+.point{
+	color:red;
+}
+
+.bg-mask{
+	background:rgba(200,200,200,0.7);
+}

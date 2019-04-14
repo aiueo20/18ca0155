@@ -1,0 +1,13 @@
+package ex0303;
+import java.io.FileOutputStream;
+
+public class BufferedWriter00 {
+	public static void main(String[] args) {
+		try {
+			FileOutputStream fos = new FileOutputStream("test.txt");
+			OutputStreamWriter osw = new OutputStreamWriter(fos);
+			BufferedWriter bw = new BufferedWriter(osw);
+
+		}
+	}
+}

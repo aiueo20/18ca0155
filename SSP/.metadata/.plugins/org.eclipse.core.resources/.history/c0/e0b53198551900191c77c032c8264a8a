@@ -1,0 +1,15 @@
+package kadai0601;
+
+public class Calculate {
+	private int price;
+
+	public int getPrice() {
+		return this.price;
+		System.out.println("げったーが実行されました");
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+}

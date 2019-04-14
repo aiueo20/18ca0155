@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+h1, div, p, img, ol, strong{
+	border: solid;
+}
+
+img{
+	float:left;
+}
+
+.float-clear{
+	overflow:hidden;
+}
+

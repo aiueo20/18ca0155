@@ -1,0 +1,44 @@
+conn system
+pw:orcl
+
+CREATE TABLE Item(
+	ItemID NUMBER(10),
+	ItemName VARCHAR2(50) NOT NULL,
+	Price NUMBER(5) DEFAULT(100) NOT NULL,
+	Memo VARCHAR2(50) DEFAULT('昼夜'),
+	GroupNo NUMBER(3),
+
+
+	CONSTRAINT PK_Item PRIMARY(ItemID),
+	CONSTRAINT UQ_Name UNIQUE(ItemName),
+	CONSTRAINT CK_Price CHECK(Price >= 100),
+	CONSTRAINT FK_GroupNo FOREIGN KEY(GroupNo) REFERENCES GroupTB(GroupNo)
+);
+
+CREATE TABLE PriceTB(
+	Term NUMBER(1),
+	OldandNew CHAR,
+	Price NUMBER(3) NOT NULL,
+	CONSTRAINT PK_PriceTB PRIMARY KEY(Term, OldandNew)
+)
+
+CREATE TABLE Rental(
+	RentalNo NUMBER(8),
+	RentDate DATE NOT NULL,
+	Cust_id NUMBER(6) NOT NULL,
+	ItemID NUMBER(10) NOT NULL,
+	Term NUMBER(1) NOT NULL,
+	OldandNew CHAR NOT NULL,
+
+	CONSTRAINT PK_Rental_no PRIMARY(RentalNo),
+	CONSTRAINT FK_Rent_Cust_id FOREIGN KEY(Cust_id) REFERENCES Customers(Cust_id),
+	CONSTRAINT FK_Rent_Item_id FOREIGN KEY(Cust_id) REFERENCES Item(ItemID),
+	CONSTRAINT CK_Rental_OandN CHECK(OldandNew == 'n' OR OldandNew == 'o'),
+	CONSTRAINT FK_Rent_PriceTB FOREIGN KEY(Term,OldandNew) REFERENCES PriceTB(Term,OldandNew)
+	CONSTRAINT CK_Rent_TermOandN CHECK()
+
+)
+
+CREATE TABLE GroupTB(
+
+)

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kadai0203</title>
+</head>
+<body>
+<form action="/kadai0203/index.html" method="post">
+	<input type="date"></input>
+
+</form>
+
+</body>
+</html>

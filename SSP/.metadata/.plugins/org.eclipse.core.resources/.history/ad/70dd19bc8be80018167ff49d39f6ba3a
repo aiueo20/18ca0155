@@ -1,0 +1,46 @@
+package kadai0104.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class EtoServlet
+ */
+@WebServlet("/EtoServlet")
+public class EtoServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public EtoServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		//干支の計算方法→2003 mod 12 = 11 →2003年の十二支は未
+		PrintWriter out = response.getWriter();
+
+		String x = request.getParameter("seireki");
+
+
+
+		String[] etos = {"子（ね）","丑（うし）","寅（とら）","卯（う）","辰（たつ）","巳（み）","午（うま）","未（ひつじ）","申（さる）","酉（とり）","戌（いぬ）","亥（い）"};
+
+
+
+	}
+
+}

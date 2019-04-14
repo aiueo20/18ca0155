@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kadai0204</title>
+</head>
+<body>
+<form action="/kadai0204/BuyServlet" method="get">
+<hr>
+会員番号:<input type="text" name="kaiinnbangou"><br>
+会員名:<input type="text" name="kaiinnmei"><br>
+<hr>
+商品：<select name="product1">
+		<option>USBメモリー</option>
+		<option>マウス</option>
+	　</select>
+数量：<input type="text" name="suuryou1">
+<br>
+商品：<select name="product1">
+		<option>USBメモリー</option>
+		<option>マウス</option>
+	　</select>
+数量：<input type="text" name="suuryou2">
+<br>
+商品：<select name="product1">
+		<option>USBメモリー</option>
+		<option>マウス</option>
+	　</select>
+数量：<input type="text" name="suuryou3">
+<br>
+<input type="submit" value="購入">
+<input type="reset" value="リセット" onclick="location.reload()"
+</form>
+
+</body>
+</html>

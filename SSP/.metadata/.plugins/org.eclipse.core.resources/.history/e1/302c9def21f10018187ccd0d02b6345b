@@ -1,0 +1,10 @@
+package ex0303;
+import java.io.FileOutputStream;
+
+public class BufferedWriter00 {
+	public static void main(String[] args) {
+		try {
+			FileOutputStream
+		}
+	}
+}

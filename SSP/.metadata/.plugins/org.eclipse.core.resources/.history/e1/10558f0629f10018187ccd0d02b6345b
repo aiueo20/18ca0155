@@ -1,0 +1,16 @@
+package kadai0301.filter;
+
+public class AccessCounter {
+	private int count = 0;
+	public static void main(String[] args) {
+
+	}
+
+	public static int increment() {
+		this.count++;
+		return this.count;
+	}
+	public int getCount() {
+		return this.count;
+	}
+}

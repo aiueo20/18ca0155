@@ -1,0 +1,27 @@
+<!DOCTYPE html><!-- HTMP5の文書である宣言(<html>の上に書くべき) -->
+<html>
+  <head>
+    <meta charset="UTF-8"><!-- 文書に関する情報、 charset : 文書のエンコーディング情報 -->
+    <title>初めてのJavaScript</title>
+    <script type="text/javascript">
+    	function calc() {
+        document.myform.sum.value
+        = parseInt(document.myform.val1.value)
+          + parseInt(document.myform.val2.value);
+    	}
+    </script>
+  </head>
+  <body>
+    <h3>足し算プログラム</h3>
+    <form name="myform">
+      <input type="text" name="val1" value=""/>
+      +
+      <input type="text" name="val2" value=""/>
+      =
+      <input type="text" name="sum" value=""/>
+      <br/>
+      <br/>
+      <input type="button" name="calcButton" value="計算" onclick="calc()" />
+    </form>
+  </body>
+</html>

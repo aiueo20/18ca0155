@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>手紙の料金計算</h1><br>
+<input type="radio" name="teikei" value="定形">定形
+<input type="radio" name="teikeigai" value="定形外">定形外
+
+
+</body>
+</html>

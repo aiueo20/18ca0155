@@ -1,0 +1,13 @@
+package ex0304;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class BufferedReader00 {
+	public static void main(String[] args) {
+		try {
+			FileInputStream fis = FileInputStream("test2.txt");
+		}catch(IOException ex) {
+			System.out.println(ex);
+		}
+	}
+}

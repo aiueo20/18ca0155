@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*学生生活のスタイル*/
+
+#top_contents{
+	overflow: hidden;
+}
+
+#top_contents img{
+	float: right;
+	margin-top:80px;
+	width:45%;
+}
+
+.life_link{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: -webkit-space-around;
+	justify-content: space-around;
+	margin: 20px 200px;
+}
+
+.life_article_container{
+	background-color: #b0b0c0;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.life_article_container img{
+	display: block;
+	width: 95%;
+	margin: auto;
+}
+
+.life_article_cell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+}
+
+table{
+	border-collapse: collapse;
+	border: 3px solid #4682b4;
+	background-color: #f0f8ff;
+	text-align: left;
+	width:95%;
+}
+
+td{
+	border:1px solid #4682b4;
+	padding-left:5px;
+}
+
+td:first-child{
+	background-color: #f5deb3;
+}
+
+td ul{
+	list-style-type: none;
+	padding:0 5px;
+}
+
+.life_article_table{
+	display:table;
+	table-layout: fixed;
+	width: 100%;
+}
+

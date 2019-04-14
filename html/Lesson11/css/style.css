@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+img{
+	float:left;
+}
+
+.float-clear{
+	overflow:hidden;
+}
+
+h1, div, p, img, ol, strong{
+	border: solid;
+}
+
+/*
+@charset "utf-8";
+
+h1, div, p, img, ol, strong{
+	border:solid;
+}
+
+p{
+	padding: 10px 20px 40px 50px;
+	margin: 10px 20px 40px 50px;
+}
+
+img{
+	float:left;
+}
+
+div{
+	width: 500px;
+	padding:20px 20px 40px 60px;
+}
+
+.float-clear{
+	overflow:hidden;
+}
+*/

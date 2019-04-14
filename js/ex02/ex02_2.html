@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="kaiten.css">
+    <meta charset="UTF-8">
+    <title>初めてのJavaScript2</title>
+  <script type="text/javascript" src="./JS/ex02_2.js"></script>
+  </head>
+  <body onload="moveImgX()">
+  	<img src="./image/susi01_b_02.png" border="0" id="img1" style="position:absolute; visibility: hidden">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+    <div class="front" style="background: url(./image/susi01_b_03.png) 0 0 no-repeat;">
+    </div>
+    <div class="back" style="background: url(./image/susi01_b_05.png) 0 0 no-repeat;">
+    </div>
+    </div>
+    </div>
+        【↑海老寿司にポインタを乗せるとサーモンになるよ】<br>
+      【クリックする度に10倍速くなるよ→】
+      <input type=button value="10倍速" onclick="move2xImgX()">
+  	<script type="text/javascript">
+      moveImgX();
+  	</script>
+  </body>
+</html>

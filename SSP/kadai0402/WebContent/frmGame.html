@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="gameenq.jsp" method="get">
+		<p>性別</p>
+		<input type="radio" name="gender" value="男">男
+		<input type="radio" name="gender" value="女">女
+
+		<p>職業</p>
+		<select name="job">
+		<option value="会社員" >会社員</option>
+		<option value="自営業">自営業</option>
+		<option value="学生">学生</option>
+		<option value="アルバイト">アルバイト</option>
+		</select>
+
+		<p>好きなゲームは？</p>
+		<input type="text" name="likegame">
+
+		<p>初めて購入したハードは？</p>
+		<input type="checkbox" name="hard" value="ファミコン">ファミコン<br>
+		<input type="checkbox" name="hard" value="スーパーファミコン">スーパーファミコン<br>
+		<input type="checkbox" name="hard" value="セガサターン">セガサターン<br>
+		<input type="checkbox" name="hard" value="プレーステーション">プレーステーション<br>
+		<input type="submit" value="送信">
+		<input type="reset" value="リセット" onclick="location.reload()">
+		</form>
+
+</body>
+</html>

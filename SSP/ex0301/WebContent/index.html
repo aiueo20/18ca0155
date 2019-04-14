@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>各種入力のテスト</title>
+</head>
+<body>
+	<form action="/ex0301/next" method="get">
+		<!-- ラジオボタンはvalueの文字列を返す,checkedはチェックが付く -->
+		<input type="radio" name="yesno" value="Yes" checked>Yes
+		<input type="radio" name="yesno" value="No">No<br>
+
+		<!-- ドロップダウンリスト -->
+		<!-- サーブレット側のgetParameter()で取得可能 -->
+		<select name="number">
+			<option value="18CA0301">18CA0301</option>
+			<option value="18CA0301">18CA0302</option>
+			<option value="18CA0301">18CA0303</option>
+			<option value="18CA0301">18CA0304</option>
+		</select><br>
+		<!-- テキストエリア -->
+		<!-- チェックボックス -->
+		<textarea name="tarea"></textarea><br>
+		<input type="checkbox" name="meal" value="朝食">朝食
+		<input type="checkbox" name="meal" value="昼食">昼食
+		<input type="checkbox" name="meal" value="夕食">夕食
+		<input type="checkbox" name="meal" value="夜食">夜食<br>
+		<input type="submit" value="送信">
+	</form>
+</body>
+</html>

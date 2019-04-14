@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body {
+	background: url("../images/明石3.png");
+	background-position:50% bottom;
+	background-position:50% center;
+	background-repeat: no-repeat;
+	font-family: Impact,Charcoal;
+	width: 1200px;
+	background-attachment:fixed;
+}
+.header {
+	text-align: center;
+}
+h2 {
+	background-color: #f0e68c;
+}
+p{
+	font-family: "MS 明朝",serif;
+	font-style: oblique;
+}
+
+.wf-notosansjapanese { font-family: "Noto Sans Japanese"; }
+
+.point{
+	color:red;
+}
+
+.bg-mask{
+	background:rgba(200,200,200,0.7);
+}

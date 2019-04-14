@@ -1,0 +1,25 @@
+package ex0303;
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+//最も簡単なファイル書き込みプログラム（例外処理は特に行っていない）
+public class BufferedWriter00 {
+	public static void main(String[] args) {
+		try {
+			FileOutputStream fos = new FileOutputStream("test.txt");
+			OutputStreamWriter osw = new OutputStreamWriter(fos);
+			BufferedWriter bw = new BufferedWriter(osw);
+
+			//1行書き込み
+			bw.write("こんにちは");//1行文字列の書き込み
+			bw.newLine();//改行
+			bw.flush();//フラッシュ（未書き込みのメモリ上のデータを書き出す）
+			bw.close();//ファイルのクローズ
+			System.out.println("書き込み処理が終了しました");
+		}catch(IOException ex){
+			System.out.println(ex);
+		}
+	}
+}

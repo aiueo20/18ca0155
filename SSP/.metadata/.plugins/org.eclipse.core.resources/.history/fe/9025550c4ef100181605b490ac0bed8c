@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kadai0204</title>
+</head>
+<body>
+<form action="/kadai0204/BuyServlet" method="get">
+<hr>
+会員番号:<input type="text" name="kaiinnbangou"><br>
+会員名:<input type="text" name="kaiinnmei"><br>
+<hr>
+商品：<select name="product1">
+		<option>USBメモリー</option>
+		<option>マウス</option>
+	　</select>
+商品：
+商品：
+</form>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+コマンドプロンプト起動直後
+
+C:\Users\ca>cd java1
+java1フォルダに移動する
+↓
+C:\Users\ca\java1>
+となる。

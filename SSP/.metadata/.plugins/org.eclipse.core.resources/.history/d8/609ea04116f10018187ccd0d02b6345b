@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	index.html<br>
+	<form action="/ex0302/hyoji" method="get">
+		Message<input type="text" name="message"><br>
+		<input type="submit" value="送信">
+	</form>
+</body>
+</html>

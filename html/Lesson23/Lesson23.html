@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>フォーム</title>
+</head>
+
+<body>
+	<h1>フォームの部品</h1>
+	<form method="post" enctype="text/plain">
+<p>
+	<label for="txt_name">氏名（必須）</label>
+	<input type="text" id="txt_name" name="name" placeholder="お名前">
+	<label for="txt_password">パスワード（必須）</label>
+	<input type="password" name="password" id="txt_password">
+	<br>
+	<label for="txt_mail">メール（必須）</label>
+	<input type="mail" id="txt_mail" name="mail">
+	<label for="txt_url">URL</label>
+	<input type="url" name="url" id="txt_url">
+	<label for="tel">電話番号</label>
+	<input type="tel" id="txt_tel" name="tel">
+	<br>
+	<label for="txt_date">日付</label>
+	<input type="date" id="txt_date" name="date">
+	<label for="txt_schoolyear">学年</label>
+	<input type="text" id="txt_schoolyear" name="schoolyear">
+	<br>
+	<label for="txt_radio">性別</label>
+	<input type="radio" id="txt_radio" name="radio">男
+	<input type="radio" id="txt_radio" name="radio">女
+	<br>
+	<p>当てはまる項目にチェックしてください</p>
+	<input type="checkbox" id="txt_box" name="box">高校生
+	<input type="checkbox" id="txt_box" name="box">社会人
+	<input type="checkbox" id="txt_box" name="box">保護者
+	<br>
+	<label for="txt_color">好きな色</label>
+	<input type="color" id="txt_color" name="color">
+	<br>
+	<textarea name="textarea" rows="10" cols="80" placeholder="お問い合わせ内容をご記入ください。"></textarea>
+	<br>
+	<input type="submit">
+	<input type="reset">
+	<input type="button" value="ボタン">
+	</form>
+</body>

@@ -1,0 +1,25 @@
+INDEX VERSION 1.131
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3539358664.index
+\ex0601\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2463231352.index
+\ex0501\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\865638245.index
+\ex0401\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4268596704.index
+\kadai0501\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2314424080.index
+\kadai0502\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\352104038.index
+\kadai0402\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4120013515.index
+\kadai0602\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2929161747.index
+\ex0501\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2181871675.index
+\kadai0601\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1849108132.index
+\kadai0603\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2405032457.index
+\kadai0403\src
+C:\Users\ca\SSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1667398806.index
+\kadai0401\src

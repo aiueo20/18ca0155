@@ -1,0 +1,6 @@
+package ex0601;
+
+public class Gakusei {
+	private String gakusekiNo;
+	private String gakuseiName;
+}

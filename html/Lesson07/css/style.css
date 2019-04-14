@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+table{
+}
+
+.Wrap{
+	background-image: url("../images/tyokominto.jpg");
+	width:1800px;
+}
+
+.bg-image {
+	background: rgba(255,255,255,0.5);
+	width:1800px;
+}
+
+.bg-mask{
+	border-collapse: collapse;
+	border: 3px solid #00008b;
+	background-color:rgba(18,180,120,0.4);
+	top:100px;
+	background-attachment: scroll;
+	width:1800px;
+}
+
+
+th, td{
+	border: 1px solid #708090;
+}
+
+thead{
+	border: 4px double #708090;
+}
+
+tbody{
+	border:;
+}
+
+colgroup.colhead{
+	background-color:RGBA(255,255,255,0);
+}

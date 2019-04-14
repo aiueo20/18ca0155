@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ブートストラップ</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-reboot.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-group row justify-content-center">
+      <div class="col-md-8">
+  <h1>お問い合わせフォーム</h1>
+  <p>下記の入力欄に該当する内容を入力の上、送信ボタンを押してください。</p>
+</div>
+</div>
+
+  <form>
+    <div class="form-group row justify-content-center">
+      <lable for="txt_name" class="col-md-2 col-form-label">お名前<span class="text-danger">（必須）</span></lable>
+      <div class="col-md-6">
+        <input type="text" id="txt_name" name="name" class="form-control" placeholder="お名前" required>
+      </div>
+    </div>
+
+    <div class="form-group row justify-content-center">
+        <lable for="txt_kana" class="col-md-2 col-form-label">ふりがな<span class="text-danger">（必須）</span></lable>
+      <div class="col-md-6">
+        <input type="text" id="txt_kana" name="kana" class="form-control" placeholder="ふりがな" required>
+      </div>
+    </div>
+
+  <fieldset class="form-group">
+    <div class="row justify-content-center">
+      <legend class="col-form-label col-md-2">性別</legend>
+
+        <div class="col-md-6">
+          <div class="form-check form-check-inline">
+            <input type="radio" name="gender" id="rbn_man" value="man" class="form-check-input">
+            <label for="rbn_man" class="form-check-label">男</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="radio" name="gender" id="rbn_woman" value="woman">
+          <label for="rbn_woman" class="form-check-label">女</label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <div class="row justify-content-center">
+      <legend class="col-form-label col-md-2">対象者・目的</legend>
+
+      <div class="col-md-6">
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="high" id="ck_high" class="form-check-input">
+          <label for="ck_high" class="form-check-label">高校生</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="working" id="ck_working" class="form-check-input">
+          <label for="ck_working" class="form-check-label">社会人</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="parent" id="ck_parent" class="form-check-input">
+          <label for="ck_parent" class="form-check-label">保護者</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="else" id="ck_else_people" class="form-check-input">
+          <label for="ck_else_people" class="form-check-label">その他</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="offset-md-2 col-md-6">
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="look-on" id="ck_look-on" class="form-check-input">
+          <label for="ck_look-on" class="form-check-label">見学</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="trial" id="ck_trial" class="form-check-input">
+          <label for="ck_trial" class="form-check-label">体験入学</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose"   value="counsel" id="ck_counsel" class="form-check-input">
+          <label for="ck_counsel" class="form-check-label">入学相談</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="purpose" value="else" id="ck_else" class="form-check-input">
+          <label for="ck_else" class="form-check-label">その他</label>
+        </div>
+      </div>
+    </div>
+        </fieldset>
+
+      <div class="form-group row justify-content-center">
+        <label for="txt_email" class="col-md-2 col-from-label">メール<span class="text-danger">（必須）</span></label>
+        <div class="col-md-6">
+        <input type="email" name="email" id="txt_email" class="form-control" required>
+      </div>
+    </div>
+
+      <div class="form-group row justify-content-center">
+        <label for="txt_tel" class="col-md-2 col-form-label">電話番号</label>
+        <div class="col-md-6">
+        <input type="tel" name="tel" id="txt_tel" class="form-control">
+      </div>
+    </div>
+
+      <div class="form-group row justify-content-center">
+        <label for="txt_date" class="col-md-2 col-form-label">日付</label>
+      <div class="col-md-6">
+        <input type="date" name="date" id="txt_date" class="form-control">
+      </div>
+    </div>
+
+      <div class="form-group row justify-content-center">
+        <div class="col-md-8">
+        <textarea name="contact" cols="40" rows="10" placeholder="お問い合わせ内容をご記入ください" id="txt_contact" class="form-control"></textarea>
+      </div>
+    </div>
+
+    <div class="form-group row justify-content-center">
+        <input type="submit" value="送信" id="btn_submit" class="btn btn-secondary col-md-2">
+      </div>
+      </form>
+    </div>
+  </body>
+</html>

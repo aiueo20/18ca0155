@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+	background: #778899;
+	font-family: Impact,Charcoal;
+	width: 600px;
+}
+.header {
+	text-align: center;
+}
+h2 {
+	background-color: #f0e68c;
+}
+p{
+	font-family: "MS 明朝",serif;
+	font-style: oblique;
+}

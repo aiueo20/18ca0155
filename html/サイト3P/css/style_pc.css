@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*PC用のスタイル*/
+/*全体で共通のスタイル*/
+
+body{
+	width: 1000px;
+	margin: 0 auto;	/*値が2つの場合、上下、左右*/
+}
+
+/*共通スタイル・ヘッダ部分のスタイル*/
+.header{
+	padding:20px;	/*上下、左右のパディングを増やす*/
+}
+
+.header img{
+	vertical-align: middle;	/*文字の回り込み位置を調整*/
+}
+
+/*共通スタイル・ナビゲーション部分のスタイル*/
+nav a{
+	width: 200px;	/*ひとつの<a>要素の幅を200pxに設定*/
+	padding: 20px 0;
+
+	font-size: 20px;
+}
+
+/*トップページのスタイル・メインのヘッダ部分のスタイル*/
+.toppage_title{
+	background-position: 27px center;
+	zoom: 1.5;
+}
+
+/*サブページの共通スタイル・メインのヘッダ部分のスタイル*/
+.subpage_title h1{
+	font-size: 50px;
+}
+
+/*共通スタイル・メインの概要部分のスタイル*/
+.contents_wrapper{
+	margin: 0 40px 40px;
+	padding: 0 30px;
+}
+
+/*トップページのスタイル・メインのポイント部分のスタイル*/
+.toppage_point_contents{
+	margin: 10px;
+	padding: 10px;
+	width: 250px;
+	height: 560px;
+}
+
+.toppage_point_contents h3{
+	height: 80px;
+}
+
+.toppage_point_contents img{
+	width: 100%;
+}
+
+table{
+	padding: 10px;
+	border:solid;
+	border: 1px solid;
+}
+
+.wf-hannari { font-family: "Hannari"; }

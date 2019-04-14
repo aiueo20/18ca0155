@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kadai0203</title>
+</head>
+<body>
+<form action="/kadai0203/index.html" method="post">
+	日付　<input type="date"></input><br>
+	時刻　
+	<input type="time"></input><br>
+	内容　<input type="text"><br>
+	<input type="submit" value="送信">
+		<input type="reset" value="リセット" onclick="location.reload()" >
+
+</form>
+
+</body>
+</html>

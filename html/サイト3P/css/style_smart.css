@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*スマホ用のスタイル*/
+body{
+	font-size: small;
+}
+
+/*共通スタイル・ヘッダ部分のスタイル*/
+.header{
+	padding: 5px;	/*上下、左右のパディング*/
+}
+
+.header img{
+	display: block;
+	width: 60px;
+}
+
+.header a{
+	display: block;
+	text-align: right;
+}
+
+/*共通スタイル・ナビゲーション部分のスタイル*/
+nav a{
+	min-width: 80px;	/*最低の大きさを80pxに設定*/
+	padding: 5px 0;
+	font-size: 10px;
+}
+
+.subpage_title h1{
+	font-size: 30px;
+}
+
+/*共通スタイル・メインの概要部分のスタイル*/
+.contents_wrapper{
+	margin: 0 5px 5px;	/*上　左右　下*/
+	padding: 0 5px;
+	font-size: small;
+}
+
+/*トップページのスタイル・メインのヘッダ部分のスタイル*/
+.toppage_title{
+	background-position: 5px;
+	zoom: 0.8;
+	padding-left: 100px;
+	padding-right: 5px;
+}
+
+/*トップページのスタイル・メインのポイント部分のスタイル*/
+.toppage_point_container{
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}

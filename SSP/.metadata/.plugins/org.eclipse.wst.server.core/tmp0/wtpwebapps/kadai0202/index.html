@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>アンケート</title>
+</head>
+<body>
+	<form action="/kadai0202/EnqServlet" method="get">
+		<h1>アンケート</h1><br>
+		性別<br><input type="radio" name="gender" value="男" checked>男
+		<input type="radio" name="gender" value="女">女<br>
+		職業<br>
+		<select name = "job">
+			<option value = "主婦">主婦</option>
+			<option value = "会社員">会社員</option>
+			<option value = "その他">その他</option>
+		</select><br>
+		趣味<br>
+		<input type="checkbox" name="hobby" value="音楽鑑賞">音楽鑑賞
+		<input type="checkbox" name="hobby" value="旅行">旅行<br>
+		<input type="checkbox" name="hobby" value="ショッピング">ショッピング
+		<input type="checkbox" name="hobby" value="グルメ">グルメ<br>
+		<input type="checkbox" name="hobby" value="スポーツ">スポーツ
+		<input type="checkbox" name="hobby" value="ゲーム">ゲーム<br>
+
+		<h4>自由意見</h4><br>
+		<textarea name="tarea"></textarea><br>
+		<input type="submit" value="送信">
+	</form>
+</body>
+</html>

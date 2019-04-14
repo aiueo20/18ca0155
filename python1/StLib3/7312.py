@@ -1,0 +1,10 @@
+size = 7
+f = open('sample.txt','r')
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+print(repr(f.read(size)))
+f.close()

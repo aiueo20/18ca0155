@@ -1,0 +1,7 @@
+package kadai0601;
+
+public class Caluculate {
+	private String price;
+
+
+}

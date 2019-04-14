@@ -1,0 +1,29 @@
+67P演習４
+オブジェクト権限の追加
+
+conn selector
+pw;selectorpass
+
+conn operator
+pw:operatorpass
+
+conn system
+pw:orcl
+
+GRANT
+INSERT, DELETE, UPDATE, SELECT
+ON tbowner, emps
+TO DMLuser;
+
+GRANT
+INSERT, DELETE, UPDATE, SELECT
+ON tbowner, depts
+TO DMLuser;
+
+CREATE TABLE Item(
+ItemID NUMBER(10) CONSTRAINT PK_Item PRIMARY KEY
+,ItemName VARCHAR2(50) NOT NULL CONSTRAINT UQ_Name UNIQUE
+,Price NUMBER(5) DEFAULT(100) NOT NULL CONSTRAINT CK_Price CHECK(price >= 100)
+,Memo VARCHAR2(50) DEFAULT('昼夜')
+,GroupNo NUMBER(3) CONSTRAINT FK_GroupNo REFERENCES GroupTB(GroupNo)
+)
